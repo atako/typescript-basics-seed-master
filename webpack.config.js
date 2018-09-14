@@ -8,11 +8,9 @@ module.exports = {
     extensions: [".ts", ".js"]
   },
   module: {
-    rules: [
-      { test: /\.ts$/, use: "awesome-typescript-loader" }
-    ]
-  }, 
+    rules: [{ test: /\.ts$/, use: "awesome-typescript-loader" }]
+  },
   devServer: {
-    port : 3001
+    port: 3001
   }
 };
