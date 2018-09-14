@@ -4,6 +4,7 @@ interface Sizes {
 
 interface Pizza extends Sizes {
   name: string;
+  toppings?: number;
 }
 
 export const interfaceModule = (name: string, sizes: string[]): Pizza => {
